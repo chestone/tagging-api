@@ -1,0 +1,21 @@
+{
+  "name": "tagging-api",
+  "version": "1.0.0",
+  "description": "Basic HTTP server that handles 'tagging' arbitrary data.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "author": "Cheston Lee (chestonlloyd@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "lowdb": "^0.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
